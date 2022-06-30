@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+  background-color: hsla(196, 100%, 93%, 1);
+  background-image:
+    radial-gradient(at 46% 82%, hsla(18, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 15% 2%, hsla(69, 77%, 91%, 1) 0px, transparent 50%),
+    radial-gradient(at 46% 20%, hsla(198, 100%, 90%, 1) 0px, transparent 50%),
+    radial-gradient(at 37% 33%, hsla(60, 100%, 90%, 1) 0px, transparent 50%),
+    radial-gradient(at 48% 70%, hsla(60, 73%, 71%, 1) 0px, transparent 50%),
+    radial-gradient(at 84% 85%, hsla(186, 100%, 95%, 1) 0px, transparent 50%),
+    radial-gradient(at 54% 43%, hsla(81, 100%, 93%, 1) 0px, transparent 50%);
+  background-repeat: no-repeat;
+}
+
+button {
+  background-color: #0084ff;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+img{
+  filter: drop-shadow(0 2px 4px rgba(133, 133, 133, 0.336));
+}
