@@ -1,15 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
-import reactRefresh from '@vitejs/plugin-react-refresh'
 
 export default defineConfig(({ mode }) => {
   return {
 
-    plugins: [
-      react(),
-      reactRefresh(),
-    ],
+    plugins: [ react() ],
 
     // config
     root: 'src',
