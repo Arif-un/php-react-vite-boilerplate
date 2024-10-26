@@ -5,7 +5,7 @@ import path from 'path'
 export default defineConfig(({ mode }) => {
   return {
 
-    plugins: [ react() ],
+    plugins: [react()],
 
     // config
     root: 'src',
@@ -30,13 +30,10 @@ export default defineConfig(({ mode }) => {
     server: {
       // required to load scripts from custom host
       cors: true,
-
+      hmr:true,
       // we need a strict port to match on PHP side
       strictPort: true,
       port: 3000,
-      hmr: {
-        host: 'localhost',
-      }
     },
   }
 })
